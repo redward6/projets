@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="form_livre.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mister Cuisto</title>
+</head>
+
+<body>
+    <header>
+        <img src="/home/step39/Téléchargements/logomistercook.png" alt="Mister Cuisto">
+        <h2 class="subtitle">Produits <u>locaux</u>, cuisine <i>originale</i></h2>
+    
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                  <a href="./home2.html">Acceuil</a>
+                  <a href="./plat.html">Plat du Jour</a>
+                  <a href="#">Qui sommes nous?</a>
+                  <a class="active" href="#">Livre d'Or</a>
+                  <a href="./form_livre.html">Contacts</a>
+                </div>
+              </div>
+            </nav>
+    </header>
+
+    <hr class="ligne">
+
+    <div class="container">
+        <form action="formulaire.php" method="POST">
+      
+      
+          <label for="nom">Nom*</label>
+          <input type="text" id="nom" name="nom" placeholder="Votre nom (Obligatoire*)">
+
+          <label for="prenom">Prenom</label>
+          <input type="text" id="prenom" name="prenom" placeholder="Votre prenom">
+
+          <label for="email">Email*</label>
+          <input type="text" id="email" name="email" placeholder="Votre email (Obligatoire*)">
+
+          <label for="telfixe">Téléphone fixe</label>
+          <input type="text" id="telfixe" name="telfixe" placeholder="Votre n° de téléphone fixe">
+
+          <label for="telmobile">Mobile</label>
+          <input type="text" id="telmobile" name="telmobile" placeholder="Votre n° de téléphone mobile">
+
+          <label for="adress">Adresse</label>
+          <input type="text" id="adress" name="adress" placeholder="Votre adresse complète">
+      
+
+      
+          <label for="subject">Sujet</label>
+          <textarea id="subject" name="subject" placeholder="Nous sommes a votre ecoute" style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit" class="btn_subm">
+      
+        </form>
+      </div>
+
+    <hr class="ligne">
+
+        <img class="socm" src="/home/step39/Téléchargements/socm_orange.png" alt="">
+
+
+</body>
+</html>
