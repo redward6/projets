@@ -1,10 +1,11 @@
 * {
     box-sizing: border-box;
     color: whitesmoke;
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
 }
 
 header {
-    font-family: optima;
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
     text-align: center;
     color: wheat;
 }
@@ -21,7 +22,7 @@ header {
     font-size: 34px;
     text-align: center;
     font-style: italic;
-    font-family: optima;
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
     color: rgb(233, 187, 144);
 }
 
@@ -29,7 +30,7 @@ header {
     font-style: italic;
     font-size: 22px;
     text-align: center;
-    font-family: optima;
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
     color: rgb(233, 187, 144);
 }
 
@@ -37,18 +38,18 @@ header {
     font-size: 29px;
     text-align: center;
     font-style: italic;
-    font-family: optima;
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
     color: rgb(233, 187, 144);
 }
 
 body {
     background-color: rgb(41, 41, 41);
-    font-family: optima;
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
     background-image: url("https://cdn.pixabay.com/photo/2015/10/17/17/14/background-992850_960_720.png");
 }
 
 p {
-    font-family: optima;
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
     color: wheat;
 }
 
@@ -170,7 +171,7 @@ h1 {
 }
 
 .font-optima {
-    font-family : optima;
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
 }
 /* NE FONCTIONNE PAS
 .btn-reserv {
