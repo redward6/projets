@@ -1,0 +1,346 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+}
+/* ===HEADER AND AND TOP MENU */
+
+header {
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+    text-align: center;
+    color: rgb(236, 230, 219);
+    text-shadow: 3px 3px 3px black;
+}
+
+.subtitle {
+    color: rgb(236, 232, 219);
+    text-shadow: 3px 3px 3px black;
+}
+
+.topnav {
+    background-color:rgb(26, 21, 17);
+    overflow: hidden;
+    border-radius: 6px;
+}
+  
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+    width: 20%;
+    height: auto;
+    border: 2px red;
+    text-shadow: 3px 3px black;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-shadow: 3px 3px 3px grey;
+}
+  
+.topnav a.active {
+    background-color: #ce9c3f;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+
+/* ===MAIN BODY */
+
+.italic {
+    font-style: italic;
+}
+
+.garbure {
+    font-size: 46px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+    color: rgb(238, 219, 201);
+    text-shadow: 4px 4px black;
+}
+
+.pack_prix {
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+    color: rgb(238, 219, 201);
+}
+
+.prix {
+    font-size: 29px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+    color: rgb(238, 219, 201);
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+    background-image: url("https://cdn.pixabay.com/photo/2015/10/17/17/14/background-992850_960_720.png");
+}
+
+p {
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+    color: rgb(238, 219, 201);
+}
+
+h3 {
+    color: rgb(238, 219, 201);
+    text-shadow: 3px 3px 3px black;
+}
+
+/* ===RESPONSIVE BOOTSTRAP ON MAIN BODY? HOPEFULLY */
+
+.column {
+    float: left;
+    width: 50%;
+    padding:1%;
+    max-width: 100%; 
+}  
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* ===BODY MODIFICATIONS AND STYLING */
+
+.column button {
+    text-align: center;
+    border-radius: 6px;
+    border-width: 3px;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ce9c3f;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column img{
+    max-width: 670px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+    border-radius: 7px;
+}
+
+.column p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.mtext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    text-shadow: 3px 3px 3px black;
+    text-align: justify;
+}
+
+h1 {
+    border: 2px brown;
+}
+
+.footer {
+    text-align: center;
+}
+
+.font-optima {
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+}
+
+.recettes {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 52px;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+}
+
+.subrecette {
+    font-weight: 32px;
+    text-align: center;
+
+}
+
+/* ===SLIDESHOW GALLERY */
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+    max-width: 40%;
+    max-height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    max-height: 70%;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/4 etc) */
+  .numbertext {
+    color: black;
+    font-size: 24px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    text-shadow: 2px 2px 3px white;
+    font-family: "Droid Serif", 'Optima', 'Arial';
+    font-style: bold;
+
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+    background-color: #222;
+    color: white;
+  }
+  
+  .rowSG:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Four columns side by side */
+  .columnSG {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.75;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+/* END OF SLIDESHOW=== */
+
+/* ===FOOTER */ 
+
+.ligne {
+    border-top: 3px;
+    width: 20%;
+    background-color: orangered;
+    size: 8px;
+}
+
+.socm{
+    width: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ===MEDIA ADAPTING PARTS OF THE CODE FOR SMARTPHONES OR SMALLER WIDTH WINDOWS */
+
+@media screen and (max-width: 720px) {
+    .column {
+      width: 96%;
+      padding: 2%;
+    }
+    a.button {
+        width : 50%;
+    }
+
+    .topnav {
+        background-color:rgb(26, 21, 17);
+        overflow: hidden;
+        border-radius: 4px;
+        width: 98%;
+        padding: 1%;
+    }
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 8px 12px;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+        width: 20%;
+        height: auto;
+        border-right: #ddd;
+      }
+
+      .container {
+        position: relative;
+        max-width: 92%;
+        max-height: 92%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .mySlides {
+        display: none;
+        max-height: 95%;
+      }
+
+      .mtext {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        text-align: justify;
+    }
+}

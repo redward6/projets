@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+}
+
+header {
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+    text-align: center;
+    color: wheat;
+}
+
+.subtitle {
+    color: rgb(247, 227, 173);
+}
+
+.italic {
+    font-style: italic;
+}
+
+.garbure {
+    font-size: 34px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+    color: rgb(233, 187, 144);
+}
+
+.pack_prix {
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+    color: white;
+}
+
+.prix {
+    font-size: 29px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+    color: white;
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+    background-image: url("https://cdn.pixabay.com/photo/2015/10/17/17/14/background-992850_960_720.png");
+}
+
+p {
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+    color: wheat;
+}
+
+h3 {
+    color: wheat;
+}
+
+.topnav {
+    background-color:rgb(26, 21, 17);
+    overflow: hidden;
+    border-radius: 6px;
+}
+  
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 20%;
+    height: auto;
+  }
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.topnav a.active {
+    background-color: #ce9c3f;
+    color: white;
+  }
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-align: center;
+    border-radius: 6px;
+    border-width: 3px;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ce9c3f;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding:1%;
+    max-width: 100%; 
+}  
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 720px) {
+    .column {
+      width: 96%;
+      padding: 2%;
+    }
+    a.button {
+        width : 50%;
+    }
+
+    .topnav {
+        background-color:rgb(26, 21, 17);
+        overflow: hidden;
+        border-radius: 4px;
+        width: 98%;
+        padding: 1%;
+    }
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 8px 12px;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        width: 19%;
+        height: auto;
+      }
+}
+
+.column p {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.mtext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: justify;
+}
+
+
+h1 {
+    border: 2px brown;
+}
+
+
+.footer {
+    text-align: center;
+}
+
+.font-optima {
+    font-family: 'Oswald', 'Optima', "Times New Roman", Times, serif;
+}
+/* NE FONCTIONNE PAS
+.btn-reserv {
+    color: black;
+    text-align: center;
+    border-radius: 4px;
+    border-width: 3px;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: yellow;
+}
+*/
+.column button {
+    text-align: center;
+    border-radius: 6px;
+    border-width: 3px;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ce9c3f;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+.column img{
+    max-width: 440px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    border-radius: 4px;
+}
+
+.ligne {
+    border-top: 3px;
+    width: 20%;
+    background-color: orangered;
+    size: 8px;
+}
+
+.socm{
+    width: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="home2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mister Cuisto</title>
+</head>
+
+
+
+<body>
+
+    <!-- Logo and top menu for navigation-->
+
+    <header>
+        <a href="home2.html"><img src="https://i.ibb.co/zRCfszv/logomistercook.png" alt="logomistercook"></a>
+        <h3>Produits <u>locaux</u>, cuisine <i>originale</i></h3>
+        <hr class="ligne">
+    </header>
+
+
+    <div class="topnav">
+        <a class="active" href="#">Acceuil</a>
+        <a href="./plat.html">Plat du Jour</a>
+        <a href="#about">Qui sommes nous</a>
+        <a href="./form_livre.html">Livre d'Or</a>
+        <a href="./form_livre.html">Contacts</a>
+    </div>
+
+    <!-- First part of body : Presentation text and restaurant photo -->
+
+    <div class="row">
+        <div class="column">
+            <div class="mtext">
+                <h2 class="garbure">Bienvenue chez Mister Cuisto!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, consectetur aliquam aliquid nemo,
+                    iusto assumenda expedita illum sint hic odio quasi. Sunt quisquam natus odit, provident dolorum
+                    tempore veritatis fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quam officiis
+                    quia quasi ea architecto. Excepturi consequuntur dolorem quasi rerum deleniti dignissimos
+                    repellendus exercitationem sit mollitia impedit! Animi, dolor aliquid! Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Commodi dolores odit temporibus reiciendis voluptatem officia. Dolore,
+                    voluptatem! Sit, officiis? Quaerat enim obcaecati beatae eligendi quae dolor accusamus, ad
+                    distinctio aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis et eligendi
+                    nulla explicabo velit saepe voluptates delectus, repudiandae rem ratione cum ducimus quaerat eum
+                    fugit, placeat ab porro incidunt magnam.</p>
+            </div>
+        </div>
+        <div class="column">
+            <img src="https://i.ibb.co/82L3pWK/photo-restau-gris.jpg" alt="photo-restau-gris" class="responsive">
+        </div>
+    </div>
+
+    <hr class="ligne">
+
+    <!-- Second part of body : Gallery Slideshow of restaurant recipes -->
+
+    <h1 class="recettes">Nos recettes:</h1>
+    <h3 class="subrecette">Cliquez les images pour plus d'information!</h2>
+
+
+        <!-- Container for the image gallery -->
+        <div class="container">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FFAC.2Fvar.2Ffemmeactuelle.2Fstorage.2Fimages.2Fcuisine.2Frecettes-de-cuisine.2Frecette-facile-debuter-en-cuisine-18487.2F12670506-1-fre-FR.2F40-recettes-pour-apprendre-a-cuisiner.2Ejpg/850x478/quality/90/crop-from/center/40-recettes-pour-apprendre-a-cuisiner.jpeg"
+                    style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FFAC.2Fvar.2Ffemmeactuelle.2Fstorage.2Fimages.2Fcuisine.2Frecettes-de-cuisine.2Frecette-facile-debuter-en-cuisine-18487.2F12670506-1-fre-FR.2F40-recettes-pour-apprendre-a-cuisiner.2Ejpg/850x478/quality/90/crop-from/center/40-recettes-pour-apprendre-a-cuisiner.jpeg"
+                    style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FFAC.2Fvar.2Ffemmeactuelle.2Fstorage.2Fimages.2Fcuisine.2Frecettes-de-cuisine.2Frecette-facile-debuter-en-cuisine-18487.2F12670506-1-fre-FR.2F40-recettes-pour-apprendre-a-cuisiner.2Ejpg/850x478/quality/90/crop-from/center/40-recettes-pour-apprendre-a-cuisiner.jpeg"
+                    style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="https://lemondeculinairedesamia.com/wp-content/uploads/2019/05/poulet-basquaise-mea.jpg"
+                    style="width:100%">
+            </div>
+
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail images -->
+            <div class="rowSG">
+                <div class="columnSG">
+                    <img class="demo cursor"
+                        src="https://img-3.journaldesfemmes.fr/4S6RrItoDkFmQFQBNUTF6Xm2bO0=/605x403/smart/101cf83d766c47ddb3b817f999016a69/ccmcms-jdf/11632377.jpg"
+                        style="width:100%" onclick="currentSlide(1)" alt="La garbure landaise">
+                </div>
+                <div class="columnSG">
+                    <img class="demo cursor"
+                        src="https://cdn-elle.ladmedia.fr/var/plain_site/storage/images/elle-a-table/fiches-cuisine/tous-les-themes/plats/45279227-4-fre-FR/Recettes-Plats.jpg"
+                        style="width:100%" onclick="currentSlide(2)" alt="Le poulet basquaise">
+                </div>
+                <div class="columnSG">
+                    <img class="demo cursor"
+                        src="https://lemondeculinairedesamia.com/wp-content/uploads/2019/05/poulet-basquaise-mea.jpg"
+                        style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                </div>
+                <div class="columnSG">
+                    <img class="demo cursor"
+                        src="https://lemondeculinairedesamia.com/wp-content/uploads/2019/05/poulet-basquaise-mea.jpg"
+                        style="width:100%" onclick="currentSlide(4)" alt="Le poulet basquaise">
+                </div>
+            </div>
+        </div>
+
+        <!-- Javascript to make the slideshow work properly, not sure if JS is needed here? -->
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                var captionText = document.getElementById("caption");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                captionText.innerHTML = dots[slideIndex - 1].alt;
+            }
+        </script>
+
+        <!-- Footer : A seperation line for styling and social media logos and links -->
+
+        <hr class="ligne">
+
+        <footer>
+            <div class="footer">
+                <a href="https://www.twitter.com"><img class="socm" src="https://i.ibb.co/6nL1yhC/socm-orange.png"
+                        alt="socm-orange"></a>
+            </div>
+        </footer>
+
+
+        <!-- CHECKLIST = things to add / or modify for the entire site:
+
+            -A way to return and display a message when form is sent in php
+            -AJAX JSON
+            -Actual social media individual links
+            -Better color theme overall
+            -Better / cleaner looking navigation menu, figure out how to make borders on them?
+            -Figure out how to style the Slideshow better, add borders etc?
+            -add google map, maybe in the Qui sommes nous page?
+            -Finalize the forms
+            -add links to the Slideshow images to team's pages
+            -A chat?
+            
+        -->
+
+
+</body>
+
+</html>
